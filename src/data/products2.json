@@ -1,0 +1,722 @@
+[
+       {
+    "id": 1,
+    "name": "Casual Cotton Shirt",
+    "price": 899,
+    "img": "/images/mensshirts/ms1.jpg",
+    "category": "mensshirts",
+    "description": "Lightweight and breathable cotton shirt perfect for daily wear."
+  },
+  {
+    "id": 2,
+    "name": "Slim Fit Formal Shirt",
+    "price": 1299,
+    "img": "/images/mensshirts/ms2.avif",
+    "category": "mensshirts",
+    "description": "Tailored slim fit shirt ideal for formal occasions."
+  },
+  {
+    "id": 3,
+    "name": "Plaid Button-Up Shirt",
+    "price": 1099,
+    "img": "/images/mensshirts/ms3.jpg",
+    "category": "mensshirts",
+    "description": "Classic plaid shirt with button-up front and chest pocket."
+  },
+  {
+    "id": 4,
+    "name": "Denim Shirt",
+    "price": 1499,
+    "img": "/images/mensshirts/ms4.jpg",
+    "category": "mensshirts",
+    "description": "Trendy denim shirt with rolled sleeves and snap buttons."
+  },
+  {
+    "id": 5,
+    "name": "Linen Summer Shirt",
+    "price": 1399,
+    "img":"/images/mensshirts/ms5.webp",
+    "category": "mensshirts",
+    "description": "Breathable linen shirt designed for hot weather."
+  },
+  {
+    "id": 6,
+    "name": "Checked Office Shirt",
+    "price": 1199,
+    "img": "/images/mensshirts/ms6.webp",
+    "category": "mensshirts",
+    "description": "Professional look with fine checks and full sleeves."
+  },
+  {
+    "id": 7,
+    "name": "Flannel Shirt",
+    "price": 999,
+    "img":"/images/mensshirts/ms7.jpg",
+    "category": "mensshirts",
+    "description": "Warm and soft flannel material for casual wear."
+  },
+  {
+    "id": 8,
+    "name": "Printed Beach Shirt",
+    "price": 899,
+    "img": "/images/mensshirts/ms8.jpg",
+    "category": "mensshirts",
+    "description": "Colorful printed shirt perfect for vacation vibes."
+  },
+  {
+    "id": 9,
+    "name": "Oxford Shirt",
+    "price": 1290,
+    "img":"/images/mensshirts/ms9.webp",
+    "category": "mensshirts",
+    "description": "Classic Oxford shirt with a crisp collar and soft fabric."
+  },
+  {
+    "id": 10,
+    "name": "Mandarin Collar Shirt",
+    "price": 1190,
+    "img": "/images/mensshirts/ms10.jpg",
+    "category": "mensshirts",
+    "description": "Modern mandarin collar design with buttoned placket."
+  },
+  {
+    "id": 11,
+    "name": "Running Sports Shoes",
+    "price": 1599,
+    "img":"/images/mensshoes/mss1.jpg",
+    "category": "mensshoes",
+    "description": "Comfortable running shoes with breathable mesh and soft sole."
+  },
+  {
+    "id": 12,
+    "name": "Formal Leather Shoes",
+    "price": 2499,
+    "img": "/images/mensshoes/mss2.webp",
+    "category": "mensshoes",
+    "description": "Polished leather shoes ideal for office and formal events."
+  },
+  {
+    "id": 13,
+    "name": "Canvas Sneakers",
+    "price": 999,
+    "img": "/images/mensshoes/mss3.jpg",
+    "category": "mensshoes",
+    "description": "Trendy canvas sneakers for casual wear and outings."
+  },
+  {
+    "id": 14,
+    "name": "Slip-On Loafers",
+    "price": 1199,
+    "img": "/images/mensshoes/mss4.jpg",
+    "category": "mensshoes",
+    "description": "Easy to wear slip-on loafers with cushioned footbed."
+  },
+  {
+    "id": 15,
+    "name": "High Ankle Boots",
+    "price": 1899,
+    "img": "/images/mensshoes/mss5.jpg",
+    "category": "mensshoes",
+    "description": "Stylish high ankle boots suitable for winter and trekking."
+  },
+  {
+    "id": 16,
+    "name": "Walking Shoes",
+    "price": 1299,
+    "img": "/images/mensshoes/mss6.jpg",
+    "category": "mensshoes",
+    "description": "Lightweight walking shoes with shock-absorbing sole."
+  },
+  {
+    "id": 17,
+    "name": "Derby Shoes",
+    "price": 2290,
+    "img":"/images/mensshoes/mss7.jpg",
+    "category": "mensshoes",
+    "description": "Classic derby shoes with lace-up design and durable finish."
+  },
+  {
+    "id": 18,
+    "name": "Casual Slippers",
+    "price": 599,
+    "img":"/images/mensshoes/mss8.jpg",
+    "category": "mensshoes",
+    "description": "Soft and flexible slippers ideal for everyday comfort."
+  },
+  {
+    "id": 19,
+    "name": "Trekking Shoes",
+    "price": 1999,
+    "img": "/images/mensshoes/mss9.webp",
+    "category": "mensshoes",
+    "description": "Water-resistant trekking shoes with rugged sole grip."
+  },
+  {
+    "id": 20,
+    "name": "Moccasins",
+    "price": 1399,
+    "img": "/images/mensshoes/mss10.jpg",
+    "category": "mensshoes",
+    "description": "Premium suede moccasins with soft insoles for comfort."
+  },
+   {
+    "id": 21,
+    "name": "Classic Leather Watch",
+    "price": 2499,
+    "img": "/images/menswatches/mw1.jpg",
+    "category": "menswatches",
+    "description": "Elegant leather strap watch with analog dial and date display."
+  },
+  {
+    "id": 22,
+    "name": "Digital Sports Watch",
+    "price": 1699,
+    "img": "/images/menswatches/mw2.jpg",
+    "category": "menswatches",
+    "description": "Water-resistant digital watch with stopwatch and alarm functions."
+  },
+  {
+    "id": 23,
+    "name": "Stainless Steel Watch",
+    "price": 2899,
+    "img":"/images/menswatches/mw3.webp",
+    "category": "menswatches",
+    "description": "Durable stainless steel strap and case with classic analog dial."
+  },
+  {
+    "id": 24,
+    "name": "Smart Fitness Watch",
+    "price": 3199,
+    "img": "/images/menswatches/mw4.jpg",
+    "category": "menswatches",
+    "description": "Smartwatch with heart rate monitor, pedometer, and notifications."
+  },
+  {
+    "id": 25,
+    "name": "Chronograph Watch",
+    "price": 3499,
+    "img": "/images/menswatches/mw5.jpg",
+    "category": "menswatches",
+    "description": "Multi-function chronograph with tachymeter and date display."
+  },
+  {
+    "id": 26,
+    "name": "Minimalist Watch",
+    "price": 1999,
+    "img": "/images/menswatches/mw6.jpg",
+    "category": "menswatches",
+    "description": "Slim and sleek watch design for modern minimalistic style."
+  },
+  {
+    "id": 27,
+    "name": "Analog-Digital Combo Watch",
+    "price": 2299,
+    "img": "/images/menswatches/mw7.jpg",
+    "category": "menswatches",
+    "description": "Dual-display watch with analog hands and digital features."
+  },
+  {
+    "id": 28,
+    "name": "Luxury Gold Watch",
+    "price": 5999,
+    "img":"/images/menswatches/mw8.avif",
+    "category": "menswatches",
+    "description": "Gold-tone luxury watch with sapphire glass and leather strap."
+  },
+  {
+    "id": 29,
+    "name": "Field Watch",
+    "price": 1899,
+    "img": "/images/menswatches/mw9.jpg",
+    "category": "menswatches",
+    "description": "Rugged field watch with canvas strap and military-style design."
+  },
+  {
+    "id": 30,
+    "name": "Digital LED Watch",
+    "price": 999,
+    "img":"/images/menswatches/mw10.jpg",
+    "category": "menswatches",
+    "description": "Stylish LED display watch with touch control and backlight."
+  },
+  {
+    "id": 31,
+    "name": "Floral Summer Dress",
+    "price": 1299,
+    "img": "/images/womensdresses/ws1.jpg",
+    "category": "womensdresses",
+    "description": "Light and breezy floral print dress, perfect for summer outings."
+  },
+  {
+    "id": 32,
+    "name": "Bodycon Party Dress",
+    "price": 1899,
+    "img": "/images/womensdresses/ws2.jpg",
+    "category": "womensdresses",
+    "description": "Elegant body-hugging party dress with a stylish neckline."
+  },
+  {
+    "id": 33,
+    "name": "Maxi Dress",
+    "price": 1690,
+    "img":  "/images/womensdresses/ws3.webp",
+    "category": "womensdresses",
+    "description": "Full-length maxi dress with a flattering A-line cut."
+  },
+  {
+    "id": 34,
+    "name": "Denim Shirt Dress",
+    "price": 1499,
+    "img": "/images/womensdresses/ws4.jpg",
+    "category": "womensdresses",
+    "description": "Casual denim shirt dress with a belt and buttoned front."
+  },
+  {
+    "id": 35,
+    "name": "Wrap Dress",
+    "price": 1399,
+    "img":  "/images/womensdresses/ws5.jpg",
+    "category": "womensdresses",
+    "description": "Wrap-style dress with a v-neck and adjustable tie waist."
+  },
+  {
+    "id": 36,
+    "name": "Lace Cocktail Dress",
+    "price": 2299,
+    "img": "/images/womensdresses/ws6.jpg",
+    "category": "womensdresses",
+    "description": "Classy lace dress for special events and evening outings."
+  },
+  {
+    "id": 37,
+    "name": "Printed Cotton Dress",
+    "price": 1190,
+    "img":  "/images/womensdresses/ws7.jpg",
+    "category": "womensdresses",
+    "description": "Comfortable cotton dress with colorful prints and short sleeves."
+  },
+  {
+    "id": 38,
+    "name": "Off-Shoulder Dress",
+    "price": 1599,
+    "img": "/images/womensdresses/ws8.jpg",
+    "category": "womensdresses",
+    "description": "Trendy off-shoulder dress with ruffle detailing."
+  },
+  {
+    "id": 39,
+    "name": "Pleated Midi Dress",
+    "price": 1799,
+    "img": "/images/womensdresses/ws9.jpg",
+    "category": "womensdresses",
+    "description": "Elegant midi dress with pleats and a flattering silhouette."
+  },
+  {
+    "id": 40,
+    "name": "Tunic Dress",
+    "price": 999,
+    "img": "/images/womensdresses/ws10.jpg",
+    "category": "womensdresses",
+    "description": "Relaxed fit tunic dress perfect for daily comfort."
+  },
+  {
+    "id": 41,
+    "name": "Classic Heels",
+    "price": 1899,
+    "img":  "/images/womensshoes/ws1.jpg",
+    "category": "womensshoes",
+    "description": "Elegant classic heels perfect for formal occasions or parties."
+  },
+  {
+    "id": 42,
+    "name": "White Sneakers",
+    "price": 2199,
+    "img": "/images/womensshoes/ws2.webp",
+    "category": "womensshoes",
+    "description": "Trendy and comfortable white sneakers for casual wear."
+  },
+  {
+    "id": 43,
+    "name": "Floral Flip-Flops",
+    "price": 699,
+    "img":  "/images/womensshoes/ws3.jpg",
+    "category": "womensshoes",
+    "description": "Lightweight and colorful flip-flops with floral prints."
+  },
+  {
+    "id": 44,
+    "name": "Wedge Sandals",
+    "price": 1499,
+    "img": "/images/womensshoes/ws4.jpg",
+    "category": "womensshoes",
+    "description": "Comfortable wedge sandals for daily and semi-formal use."
+  },
+  {
+    "id": 45,
+    "name": "Leather Boots",
+    "price": 3299,
+    "img":  "/images/womensshoes/ws5.jpg",
+    "category": "womensshoes",
+    "description": "Premium leather boots with ankle-high design and side zipper."
+  },
+  {
+    "id": 46,
+    "name": "Ballet Flats",
+    "price": 1299,
+    "img":  "/images/womensshoes/ws6.jpg",
+    "category": "womensshoes",
+    "description": "Soft and flexible ballet flats for everyday comfort."
+  },
+  {
+    "id": 47,
+    "name": "Running Shoes",
+    "price": 2499,
+    "img":  "/images/womensshoes/ws7.jpg",
+    "category": "womensshoes",
+    "description": "Supportive and breathable running shoes with cushioned soles."
+  },
+  {
+    "id": 48,
+    "name": "Strappy Sandals",
+    "price": 1399,
+    "img":  "/images/womensshoes/ws8.webp",
+    "category": "womensshoes",
+    "description": "Chic strappy sandals with adjustable ankle strap."
+  },
+  {
+    "id": 49,
+    "name": "Platform Heels",
+    "price": 2599,
+    "img":  "/images/womensshoes/ws9.jpg",
+    "category": "womensshoes",
+    "description": "Stylish platform heels with bold design and stable heel."
+  },
+  {
+    "id": 50,
+    "name": "Winter Snow Boots",
+    "price": 3499,
+    "img":  "/images/womensshoes/ws10.jpg",
+    "category": "womensshoes",
+    "description": "Warm and waterproof snow boots with faux fur lining."
+  },
+  {
+    "id": 51,
+    "name": "Gold Plated Necklace",
+    "price": 1499,
+    "img":  "/images/womensjewellery/wj1.jpg",
+    "category": "womensjewellery",
+    "description": "Elegant gold plated necklace with intricate floral design."
+  },
+  {
+    "id": 52,
+    "name": "Silver Hoop Earrings",
+    "price": 799,
+    "img":  "/images/womensjewellery/wj2.jpg",
+    "category": "womensjewellery",
+    "description": "Shiny silver hoop earrings perfect for daily wear."
+  },
+  {
+    "id": 53,
+    "name": "Crystal Pendant",
+    "price": 999,
+    "img":  "/images/womensjewellery/wj3.jpg",
+    "category": "womensjewellery",
+    "description": "Stylish pendant with high-quality crystals and long chain."
+  },
+  {
+    "id": 54,
+    "name": "Pearl Stud Earrings",
+    "price": 699,
+    "img": "/images/womensjewellery/wj4.jpg",
+    "category": "womensjewellery",
+    "description": "Classic pearl studs with smooth finish and elegant touch."
+  },
+  {
+    "id": 55,
+    "name": "Gold Bangles Set",
+    "price": 1899,
+    "img": "/images/womensjewellery/wj5.jpg",
+    "category": "womensjewellery",
+    "description": "Set of 6 traditional gold bangles with ornate design."
+  },
+  {
+    "id": 56,
+    "name": "Stone Studded Ring",
+    "price": 1199,
+    "img":  "/images/womensjewellery/wj6.jpg",
+    "category": "womensjewellery",
+    "description": "Elegant ring with sparkling stones and adjustable fit."
+  },
+  {
+    "id": 57,
+    "name": "Charm Bracelet",
+    "price": 899,
+    "img":  "/images/womensjewellery/wj7.jpg",
+    "category": "womensjewellery",
+    "description": "Trendy bracelet with multiple cute and colorful charms."
+  },
+  {
+    "id": 58,
+    "name": "Antique Necklace Set",
+    "price": 2199,
+    "img":  "/images/womensjewellery/wj8.jpg",
+    "category": "womensjewellery",
+    "description": "Vintage style necklace set with matching earrings."
+  },
+  {
+    "id": 59,
+    "name": "Beaded Anklet",
+    "price": 499,
+    "img":  "/images/womensjewellery/wj9.jpg",
+    "category": "womensjewellery",
+    "description": "Colorful beaded anklet with adjustable clasp for comfort."
+  },
+  {
+    "id": 60,
+    "name": "Diamond Look Necklace",
+    "price": 2999,
+    "img": "/images/womensjewellery/wj10.jpg",
+    "category": "womensjewellery",
+    "description": "Stunning necklace with diamond-like stones for a luxurious look."
+  },
+  {
+    "id": 61,
+    "name": "iPhone 14 Pro Max",
+    "price": 129999,
+    "img":  "/images/smartphones/m3.webp",
+    "category": "smartphones",
+    "description": "Apple iPhone 14 Pro Max with A16 Bionic chip, 48MP camera, and Dynamic Island display."
+  },
+  {
+    "id": 62,
+    "name": "Samsung Galaxy S23 Ultra",
+    "price": 114999,
+    "img":  "/images/smartphones/m9.jpg",
+    "category": "smartphones",
+    "description": "Flagship Samsung phone with 200MP camera, S Pen, and AMOLED display."
+  },
+  {
+    "id": 63,
+    "name": "OnePlus 11 5G",
+    "price": 61999,
+    "img":  "/images/smartphones/m4.jpg",
+    "category": "smartphones",
+    "description": "Fast and smooth performance with Snapdragon 8 Gen 2 and 100W SuperVOOC charging."
+  },
+  {
+    "id": 64,
+    "name": "Google Pixel 8 Pro",
+    "price": 98999,
+    "img": "/images/smartphones/m10.jpg",
+    "category": "smartphones",
+    "description": "Clean Android experience with top-tier camera and Tensor G3 chip."
+  },
+  {
+    "id": 65,
+    "name": "Realme Narzo 60 Pro",
+    "price": 23999,
+    "img": "/images/smartphones/m7.jpg",
+    "category": "smartphones",
+    "description": "Value-for-money smartphone with curved AMOLED display and 100MP camera."
+  },
+  {
+    "id": 66,
+    "name": "Redmi Note 13 Pro+",
+    "price": 28999,
+    "img": "/images/smartphones/m8.jpg",
+    "category": "smartphones",
+    "description": "Popular mid-range smartphone with 200MP camera and 120Hz AMOLED display."
+  },
+  {
+    "id": 67,
+    "name": "Vivo V27 Pro",
+    "price": 37999,
+    "img":"/images/smartphones/m11.jpg",
+    "category": "smartphones",
+    "description": "Slim and stylish phone with color-changing glass and 50MP Sony sensor."
+  },
+  {
+    "id": 68,
+    "name": "iQOO Neo 7",
+    "price": 29999,
+    "img":  "/images/smartphones/m2.jpg",
+    "category": "smartphones",
+    "description": "Gaming-focused phone with Dimensity 8200 and fast 120W charging."
+  },
+  {
+    "id": 69,
+    "name": "Moto Edge 40",
+    "price": 27999,
+    "img": "/images/smartphones/m4.jpg",
+    "category": "smartphones",
+    "description": "Lightweight phone with vegan leather finish and IP68 rating."
+  },
+  {
+    "id": 70,
+    "name": "Nothing Phone (2)",
+    "price": 44999,
+    "img": "/images/smartphones/m5.jpg",
+    "category": "smartphones",
+    "description": "Unique design with Glyph Interface and Snapdragon 8+ Gen 1 performance."
+  },
+   {
+    "id": 71,
+    "name": "Apple MacBook Air M2",
+    "price": 104999,
+    "img": "/images/laptops/l1.webp",
+    "category": "laptops",
+    "description": "Ultra-thin laptop with Apple M2 chip, 13.6\" Liquid Retina display, and long battery life."
+  },
+  {
+    "id": 72,
+    "name": "Dell XPS 13",
+    "price": 114999,
+    "img": "/images/laptops/l2.jpg",
+    "category": "laptops",
+    "description": "Compact and premium Windows laptop with 13.4\" InfinityEdge display and Intel Evo platform."
+  },
+  {
+    "id": 73,
+    "name": "HP Pavilion 15",
+    "price": 63999,
+       "img": "/images/laptops/l3.jpg",
+    "category": "laptops",
+    "description": "Balanced performance with Ryzen 5, 16GB RAM, 512GB SSD, and FHD display."
+  },
+  {
+    "id": 74,
+    "name": "Lenovo IdeaPad Slim 5",
+    "price": 58999,
+    "img": "/images/laptops/l4.jpg",
+    "category": "laptops",
+    "description": "Slim and lightweight laptop with 12th Gen Intel Core i5 and backlit keyboard."
+  },
+  {
+    "id": 75,
+    "name": "ASUS Vivobook S15 OLED",
+    "price": 79999,
+    "img": "/images/laptops/l5.jpg",
+    "category": "laptops",
+    "description": "OLED display laptop with Intel Core i7, metal build, and 1TB SSD."
+  },
+  {
+    "id": 76,
+    "name": "Acer Aspire 7",
+    "price": 56999,
+    "img": "/images/laptops/l6.jpg",
+    "category": "laptops",
+    "description": "Gaming-ready laptop with Ryzen 5, GTX 1650, and 144Hz display."
+  },
+  {
+    "id": 77,
+    "name": "MSI GF63 Thin",
+    "price": 65999,
+    "img": "/images/laptops/l7.jpg",
+    "category": "laptops",
+    "description": "Affordable gaming laptop with Intel i5, GTX 1650, and red-backlit keyboard."
+  },
+  {
+    "id": 78,
+    "name": "LG Gram 16",
+    "price": 124999,
+    "img": "/images/laptops/l8.jpg",
+    "category": "laptops",
+    "description": "Lightweight 16\" laptop with Intel Evo, long battery life, and 1.2kg weight."
+  },
+  {
+    "id": 79,
+    "name": "Samsung Galaxy Book3 Pro",
+    "price": 134999,
+    "img": "/images/laptops/l9.jpg",
+    "category": "laptops",
+    "description": "Sleek design with AMOLED display, Intel Core i7, and seamless Galaxy ecosystem."
+  },
+  {
+    "id": 80,
+    "name": "Infinix ZeroBook Ultra",
+    "price": 52999,
+    "img": "/images/laptops/l10.avif",
+    "category": "laptops",
+    "description": "Budget-friendly powerhouse with i7 12th Gen, 16GB RAM, and 512GB SSD."
+  },
+  {
+    "id": 81,
+    "name": "Sony WH-1000XM5",
+    "price": 29990,
+   "img": "/images/headphones/h1.jpg",
+    "category": "headphones",
+    "description": "Industry-leading noise cancelling wireless headphones with 30-hour battery life."
+  },
+  {
+    "id": 82,
+    "name": "Apple AirPods Max",
+    "price": 59900,
+    "img": "/images/headphones/h2.jpg",
+    "category": "headphones",
+    "description": "Premium over-ear headphones with Spatial Audio and Active Noise Cancellation."
+  },
+  {
+    "id": 83,
+    "name": "Bose QuietComfort 45",
+    "price": 32990,
+   "img": "/images/headphones/h3.jpg",
+    "category": "headphones",
+    "description": "Comfortable wireless headphones with legendary noise cancellation."
+  },
+  {
+    "id": 84,
+    "name": "JBL Tune 770NC",
+    "price": 6999,
+   "img": "/images/headphones/h4.webp",
+    "category": "headphones",
+    "description": "Powerful bass sound with Adaptive Noise Cancelling and long battery life."
+  },
+  {
+    "id": 85,
+    "name": "Boat Nirvana 751 ANC",
+    "price": 4499,
+   "img": "/images/headphones/h5.jpg",
+    "category": "headphones",
+    "description": "Budget ANC headphones with 65 hours playback and ASAP charging."
+  },
+  {
+    "id": 86,
+    "name": "Sennheiser HD 450BT",
+    "price": 8990,
+    "img": "/images/headphones/h6.jpg",
+    "category": "headphones",
+    "description": "Balanced sound with active noise cancellation and 30-hour battery."
+  },
+  {
+    "id": 87,
+    "name": "Marshall Major IV",
+    "price": 9999,
+   "img": "/images/headphones/h7.avif",
+    "category": "headphones",
+    "description": "Iconic style with 80+ hours wireless playtime and multi-directional control knob."
+  },
+  {
+    "id": 88,
+    "name": "Zebronics Zeb-Rush",
+    "price": 2299,
+   "img": "/images/headphones/h8.jpg",
+    "category": "headphones",
+    "description": "Gaming headphones with RGB lights, 50mm drivers and noise-isolating mic."
+  },
+  {
+    "id": 89,
+    "name": "Buds Wireless 3",
+    "price": 1799,
+   "img": "/images/headphones/h9.jpg",
+    "category": "headphones",
+    "description": "Neckband-style wireless earphones with ANC and up to 40-hour playback."
+  },
+  {
+    "id": 90,
+    "name": "Boult Audio ProBass",
+    "price": 1499,
+  "img": "/images/headphones/h10.jpg",
+    "category": "headphones",
+    "description": "Budget wireless neckband with deep bass, fast charging, and IPX5 rating."
+  }
+]

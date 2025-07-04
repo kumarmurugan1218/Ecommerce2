@@ -1,0 +1,120 @@
+@import "tailwindcss";
+
+/* body */
+body{
+    @apply capitalize;
+}
+
+/* header */
+
+.logo{
+@apply  text-2xl ;
+}
+
+.input-box{
+    @apply grow focus:outline-none text-sm px-2;
+}
+.cart-count{
+    @apply absolute bottom-5 left-1 border rounded-full h-[23px] w-[23px] text-[15px] text-center leading-3.5 bg-black text-white font-bold animate-bounce duration-500;
+}
+
+
+/* nav */
+.links{
+@apply  pb-1 hover:border-b-2 hover:text-blue-400 duration-200;
+}
+.menu{
+    @apply visible  space-y-1 md:hidden  flex flex-col px-1;
+}
+
+
+                /* global */
+.container{
+    @apply min-h-screen py-5;
+}
+.heading{
+    @apply text-3xl font-bold text-center;
+}
+.sub-heading{
+ @apply text-2xl font-bold underline pb-2;
+}
+.btn{
+    @apply  py-2 text-center border-1 rounded grow-1 mr-2 w-full; 
+}
+li{
+    @apply list-none;
+}
+a.active{
+    @apply text-blue-500 border-b-2 ;
+}
+
+                /*login page  */
+.fb-btn{
+    @apply py-2 text-center border-1 rounded grow-1 w-full border-blue-600 hover:bg-blue-400 hover:text-white duration-300;
+}
+.google-btn{
+    @apply  py-2 text-center border-1 rounded grow-1  w-full border-red-600 hover:bg-red-500 hover:text-white duration-300;
+}
+.submit-btn{
+    @apply py-2 text-center border-1 rounded grow-1  w-full hover:bg-blue-400 hover:text-white duration-300;
+}
+
+
+
+                                
+
+                    /* cart */
+
+.cart{
+    @apply space-x-4 hover:shadow-2xl py-4 duration-300 rounded-xl;
+}
+.add-btn{
+    @apply border px-4 flex items-center space-x-5 absolute top-0 right-0 rounded bg-green-400 text-white hover:bg-green-500 duration-300;
+}
+.remove-btn{
+    @apply border px-4 flex items-center space-x-5 absolute top-0 right-0 rounded bg-red-400 text-white hover:bg-red-500 duration-300;
+}
+html{
+  scroll-behavior:smooth;
+}
+                /* product */
+.product-scaleup{
+    @apply shadow-2xl  rounded-md opacity-80  transform transition duration-300 hover:scale-105 hover:opacity-100;
+}
+
+                    /*category page  */
+.cat-cart{
+    @apply h-full w-full object-cover object-left-top rounded-md  ;
+}
+            /* contact */
+.contact{
+    @apply border px-15 rounded flex   items-center ;
+}
+.input-parent{
+    @apply flex border-2  items-center rounded p-1;
+}
+.contact-btn{
+    @apply text-center bg-amber-600 hover:bg-amber-700 text-white;
+}
+
+            /* log in page */
+.login-box{
+    @apply border rounded px-2 py-1;
+}
+form  input{
+    @apply outline-none px-2;
+}
+form textarea{
+    @apply resize-none border w-full outline-none p-5 rounded;
+}
+.cancel-btn{
+    @apply  bg-white text-black rounded-full hover:bg-black hover:text-white duration-300;
+}
+
+            /* footer */
+.footer-links{
+@apply   hover:border-b-2 hover:text-blue-400 duration-300 ;
+}
+.footer-icons{
+    @apply py-1 rounded-md hover:bg-white  hover:text-black duration-300;
+}

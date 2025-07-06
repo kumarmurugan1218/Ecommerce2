@@ -20,7 +20,7 @@ const Cart = () => {
           {cart.map((c,i)=>(
             <div key={c.id}  className='flex justify-evenly  items-center  cart'> 
                 <div className='h-[200px] w-1/4'> 
-                 <img src={`${c.img}`} className='h-full w-full object-contain' alt="noimage" />
+                 <img src={`${import.meta.env.BASE_URL}${c.img}`} className='h-full w-full object-contain' alt="noimage" />
                  </div>
 
                 <div className='flex flex-col'>

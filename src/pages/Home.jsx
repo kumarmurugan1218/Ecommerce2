@@ -53,7 +53,7 @@ const loading=setInterval(()=>{
   return (
     <section className='  '>
         <div className='h-full w-full pt-10'>
-          <img src={images[count]} alt="" className='h-full w-full object-cover '/>
+          <img src={`${import.meta.env.BASE_URL}${images[count]}`} alt="" className='h-full w-full object-cover '/>
         </div>
         <div className='min-h-screen grid  gap-y- bg-gray-900 text-white'>
         {aboutcontent.map((p,i)=>(
@@ -63,7 +63,7 @@ const loading=setInterval(()=>{
             <p className=' text-justify'>{p.para}</p>
           </div>
           <div className=' w-1/2  mx-auto my-auto'>
-            <img src={p.img} alt="" className='w-full h-full mx-auto object-cover' />
+            <img src={`${import.meta.env.BASE_URL}${p.img}`} alt="" className='w-full h-full mx-auto object-cover' />
           </div>
         </div>
         ))}

@@ -26,6 +26,7 @@ const About = () => {
   }
   
 ]
+console.log(import.meta.env.BASE_URL)
   return (
    <section class=" bg-gray-900 text-white py-5  text-center">
       <h1 class="heading">About Us</h1>
@@ -35,7 +36,7 @@ const About = () => {
         {aboutcontent.map((p,i)=>(
           <div  key={i} className='flex flex-col  py-5 gap-x-5 md:flex-row space-y-5'>
          <div className=' w-1/2  mx-auto my-auto'>
-            <img src={p.img} alt="" className='w-full h-full mx-auto object-cover' />
+            <img src={`${import.meta.env.BASE_URL}${p.img}`} alt="" className='w-full h-full mx-auto object-cover' />
           </div>
           
           <div className='w-1/2 my-auto mx-auto'>

@@ -20,7 +20,7 @@ const Product = () => {
     <div className="grid  grid-cols-2 gap-y-5 place-items-center gap-x-15 py-5 md:grid-cols-3 px-10 ">
              {filtered.map((p,i)=>(<Link key={i} to={`/product/${p}`} className='product-scaleup shadow-xl rounded-xl' >
              <div  className=' p-5 h-[300px] relative'>
-              <img src={images[i]} className="h-full object-cover" alt="" />
+              <img src={`${import.meta.env.BASE_URL}${images[i]}`} className="h-full object-cover" alt="" />
                <h1 className=' text-center '>{p}</h1>
              </div> 
              </Link>))}

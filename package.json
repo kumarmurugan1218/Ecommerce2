@@ -1,9 +1,14 @@
 {
-"homepage":"https://kumarmurugan1218.github.io/Ecommerce2",
+    "homepage": "https://kumarmurugan1218.github.io/Ecommerce2",
 "name":"ecommerce2",
   "private": true,
   "version": "0.0.0",
   "type": "module",
+   "repository": {
+    "type": "git",
+    "url": "https://github.com/kumarmurugan1218/Ecommerce2.git"
+  },
+
   "scripts": {
     "dev": "vite",
     "build": "vite build",

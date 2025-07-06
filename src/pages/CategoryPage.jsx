@@ -15,7 +15,7 @@ const CategoryPage = () => {
         {filtered.map((product)=>(
         <div className=' flex flex-col product-scaleup  ' key={product.id}>
             <div className='h-full w-full  relative rounded-md '>
-              <img src={product.img} className="cat-cart " alt="no image" />
+              <img src={`${import.meta.env.BASE_URL}${product.img}`} className="cat-cart " alt="no image" />
           {cart.includes(product)? <button className='remove-btn' onClick={()=>{
                  setCart(cart.filter((c)=>c.id!==product.id))
             }} >remove cart <CiShoppingCart /></button>:<button className='add-btn' onClick={()=>{

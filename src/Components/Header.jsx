@@ -25,8 +25,8 @@ export const Header = () => {
   
 
   return (
-    <header className='flex flex-col relative justify-center' >
-            <div className='flex justify-between py-5  shadow-sm space-x-5' >
+    <header className='flex flex-col relative justify-center w-screen' >
+            <div className='flex justify-between py-5  shadow-sm px-10' >
                 <div className=''>
                     <h1 className='logo'>logo</h1>
                 </div>
@@ -44,10 +44,10 @@ export const Header = () => {
                       />
                         <CiSearch size={25} className='' />
                       </div>
-                      <div className='relative z-10'>
-                           <ul className='bg-gray-100 shadow-xl absolute top-2 w-full  space-y-5 text-center '>
+                      <div className='relative z-10 '>
+                           <ul className='bg-gray-300 shadow-xl absolute top-2 w-full  space-y-5 text-center  '>
                                 {list&&arr.map((a,i)=>(<li key={i} > 
-                                      <NavLink to={`product/${a.toLowerCase()}`} className='links' >{a.toUpperCase()}</NavLink>
+                                      <NavLink to={`product/${a.toLowerCase()}`} className='hover:text-white hover:border-b-2' >{a.toUpperCase()}</NavLink>
                                             </li>))}
                               </ul>
                       </div>

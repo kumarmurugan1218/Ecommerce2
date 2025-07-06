@@ -4,7 +4,7 @@ import { CiUser } from "react-icons/ci";
 import { FiMessageCircle } from "react-icons/fi";
 const Contact = () => {
   return (
-    <section className='h-screen flex flex-col justify-center '>
+    <section className=' py-5'>
         <h1 className='heading mb-10'>our Contact </h1>
         <div className="flex flex-col mx-auto  shadow-2xl  rounded-xl  justify-center space-y-5  py-5 px-5  items-center    md:w-[900px]  ">
             <div className='flex flex-col gap-y-5 justify-center  items-center md:space-x-10 md:flex-row '>
@@ -29,7 +29,7 @@ const Contact = () => {
                 </div>
 
             </div>
-            <form action="#" className=' space-y-5  '>
+            <form action="#" className='  '>
                 <div className='grid gap-5 md:grid-cols-2 '>
                     <div className="input-parent ">
                         <input type="text" placeholder='Your Name' className='grow'/>

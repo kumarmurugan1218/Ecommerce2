@@ -8,7 +8,7 @@ const Navbar = ({menu,setMenu,list,arr}) => {
     
    {menu&&<nav className='absolute top-0 left-0 h-screen w-[400px] z-10 bg-white shadow-lg p-10 '>
       <ul className='grid w-full space-y-10 mt-3 '>
-        <li><NavLink className='links ' to={`${import.meta.env.BASE_URL}`}>Home</NavLink></li>
+        <li><NavLink className='links ' to={`/`}>Home</NavLink></li>
         <li><NavLink className='links' to="/product">products</NavLink></li>
         <li><NavLink className='links' to="/About">About</NavLink></li>
         <li><NavLink className='links' to="/Contact">Contact</NavLink></li>

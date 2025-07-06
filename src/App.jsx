@@ -18,10 +18,9 @@ const App = () => {
     console.log(import.meta.env.BASE_URL)
   return (
     <cartcontext.Provider value={{cart,setCart}  }>
-    <BrowserRouter>
-        <Header/>
+    <BrowserRouter basename="/Ecommerce2">
         <Routes>
-          <Route path='Ecommerce2/' element={<Layout/>}>
+          <Route path='/' element={<Layout/>}>
             <Route  index element={ <Home/>}/>
             <Route path='About' element={<About/>}/>   
             <Route path='product' element={<Product/>}/>
@@ -31,8 +30,6 @@ const App = () => {
             <Route path='Login' element={<LogInPage/>}/> 
           </Route>  
         </Routes>
- 
-        <Footer/>
     </BrowserRouter>
     </cartcontext.Provider>
   )

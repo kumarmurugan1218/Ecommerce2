@@ -28,10 +28,10 @@ const About = () => {
 ]
 console.log(import.meta.env.BASE_URL)
   return (
-   <section class=" bg-gray-900 text-white py-5  text-center">
+   <section class="min-h-screen bg-gray-900 w-full text-white py-5  text-center">
       <h1 class="heading">About Us</h1>
       
-      <div className='min-h-screen grid  gap-y-5 '>
+      <div className=' grid  gap-y-5 '>
         
         {aboutcontent.map((p,i)=>(
           <div  key={i} className='flex flex-col  py-5 gap-x-5 md:flex-row space-y-5'>

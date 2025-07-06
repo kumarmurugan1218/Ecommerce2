@@ -6,8 +6,9 @@ import Form from './Register'
 const LogInPage = () => {
     const[Login,setLogIn]=useState(false);
   return (
-    <section className='min-h-screen flex justify-center items-center md:h-[1200px]'>
-            <div className='w-[700px] py-3 md:px-10 shadow-md space-y-2 md:w-1/2  '>
+    <section className='min-h-screen w-full flex items-center   '>
+        <div className=' mx-auto py-10 shadow-md rounded-xl shadow-xl '>
+            <div className=' md:px-10 space-y-2   '>
                 <div className='flex justify-around  items-center'>
                     <button onClick={()=>{
                         setLogIn(true)
@@ -17,9 +18,9 @@ const LogInPage = () => {
                     } } className='links text-2xl font-bold'> register</button>
                 </div>
                 <h1 className='text-center text-sm'>continue with</h1>
-                <div className='flex justify-around gap-x-5'>
-                    <button className=' google-btn'>google</button>
-                    <button className=' fb-btn'>facebook</button>
+                <div className='flex flex-col gap-y-5 justify-around gap-x-5 md:flex-row'>
+                    <button className='google-btn'>google</button>
+                    <button className='fb-btn'>facebook</button>
                 </div>
 
            
@@ -30,7 +31,7 @@ const LogInPage = () => {
 
                     <Form/>}   
             </div>
-       
+       </div>
     </section>
   )
 }

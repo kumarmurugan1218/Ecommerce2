@@ -25,15 +25,16 @@ export const Header = () => {
   
 
   return (
-    <header className='flex flex-col relative justify-center w-screen' >
-            <div className='flex justify-between py-5  shadow-sm px-10' >
+    <header className='flex flex-col relative justify-center w-full ' >
+
+            <div className='flex  flex-col gap-y-5 items-center justify-between py-5  shadow-sm px-5 sm:flex-row' >
                 <div className=''>
-                    <h1 className='logo'>logo</h1>
+                    <h1 className='logo'>products</h1>
                 </div>
 
-                <div className='flex flex-col border-2 rounded p-1 relative md:w-[500px]' >
-                  <div>
-                      <div className='flex items-center'>
+                <div className='flex flex-col border-2 rounded p-1 relative md:[400px] md:w-[700px]' >
+                  <div className=' md:w-full'>
+                      <div className='flex items-center '>
                           <input type="text" className='input-box' 
                       onChange={(e)=>{
                         setData(e.target.value);
@@ -44,7 +45,7 @@ export const Header = () => {
                       />
                         <CiSearch size={25} className='' />
                       </div>
-                      <div className='relative z-10 '>
+                      <div className='relative z-10 rounded'>
                            <ul className='bg-gray-300 shadow-xl absolute top-2 w-full  space-y-5 text-center  '>
                                 {list&&arr.map((a,i)=>(<li key={i} > 
                                       <NavLink to={`product/${a.toLowerCase()}`} className='hover:text-white hover:border-b-2' >{a.toUpperCase()}</NavLink>
@@ -55,21 +56,21 @@ export const Header = () => {
                 </div>
                 
         
-                <div className='flex space-x-5 items-center'>
-                  <NavLink to='Cart' className='links relative'><CiShoppingCart size={30} /> <p className='cart-count' >{count}</p></NavLink>
-                  <NavLink to='Login'className='links'><LuUser size={30}/></NavLink>
+                 <div className='flex space-x-5 items-center '>
+                  <NavLink to='Cart' className='links relative'><CiShoppingCart size={35} /> <p className='cart-count' >{count}</p></NavLink>
+                  <NavLink to='Login'className='links'><LuUser size={35}/></NavLink>
                   <button className='menu' onClick={()=>{
                    setMenu(true)
                   }}>
-                <GiHamburgerMenu size={30} className='my-auto'/>
+                <GiHamburgerMenu size={35} className='my-auto'/>
                   </button>
-                </div> 
+                </div>  
             </div>
            
         
            <div className='text-center '>
                <Navbar menu={menu} setMenu={setMenu} list={list} arr={arr}/>
-            </div>
+            </div> 
      
     </header>
   )

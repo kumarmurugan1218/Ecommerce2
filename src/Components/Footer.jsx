@@ -5,8 +5,8 @@ import { FaLocationDot,FaSquarePhone } from "react-icons/fa6";
 import { MdOutlineMail } from "react-icons/md";
 const Footer=()=>{
     return (
-        <footer className=" w-screen bg-black text-white">
-            <div className='grid grid-cols-2 px-3 space-y-5  md:grid-cols-3 text-center py-15'>
+        <footer className="w-full bg-black text-white">
+            <div className='grid grid-cols-1 px-3 gap-y-6  md:grid-cols-3 text-center py-15'>
                 <div className='space-y-5'>
                     <h1>heading</h1>
                     <p>Lorem ipsum dolor sit amet.</p>
@@ -25,7 +25,7 @@ const Footer=()=>{
                 </div>
 
 
-                <div className='flex flex-col space-y-4 items-center'>
+                <div className=' flex flex-col space-y-4 items-center '>
                     <div className='flex items-center'>
                         <FaLocationDot /> 
                         <h1>our location</h1>

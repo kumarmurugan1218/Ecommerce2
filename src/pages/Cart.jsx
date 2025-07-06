@@ -14,12 +14,12 @@ const Cart = () => {
   },[cart])
 
   return (
-    <section className=' min-h-screen px-20 space-y-5 '>
+    <section className=' min-h-screen w-full md:px-20 md:space-y-5 '>
         <h1 className='heading '>cart</h1>
-        <div className='space-y-5'>
+        <div className='space-y-5 w-full h-full '>
           {cart.map((c,i)=>(
-            <div key={c.id}  className='flex justify-evenly  items-center  cart '> 
-                <div className='h-[200px] w-1/4'> 
+            <div key={c.id}  className='flex w-full  justify-evenly  items-center  cart w-1/2  mx-auto md:Full'> 
+                <div className='h-[300px] '> 
                  <img src={`${import.meta.env.BASE_URL}${c.img}`} className='h-full w-full object-contain' alt="noimage" />
                  </div>
 
@@ -37,11 +37,11 @@ const Cart = () => {
 
                 }}><MdOutlineCancel  size={40} /></button>
             </div>))}
-            <div className='shadow-md mt-15'> 
+            <div className='shadow-md mt-15   w-full'> 
                 <h1 className='heading '>order details</h1>
-                    <div className='flex justify-between p-5'>
-                        <h2 className='text-2xl font-bold'> total price</h2>
-                        <h2 className='text-2xl font-bold'>{total}</h2>
+                    <div className='flex  justify-between items-center p-5 '>
+                        <h2 className='text-1xl font-bold'> total price</h2>
+                        <h2 className='text-1xl font-bold pr-5'>{total}</h2>
                     </div>
             </div>
         </div>

@@ -51,11 +51,11 @@ const loading=setInterval(()=>{
      
 
   return (
-    <section className=' '>
+    <section className='min-w-screen'>
         <div className='h-full w-full pt-10 '>
           <img src={`${import.meta.env.BASE_URL}${images[count]}`} alt="" className='h-full w-full object-cover '/>
         </div>
-        <div className='min-h-screen grid  gap-y- bg-gray-900 text-white'>
+        <div className='min-h-screen w-full grid  gap-y- bg-gray-900 text-white'>
         {aboutcontent.map((p,i)=>(
           <div  key={i} className='flex flex-col  py-5 gap-x-5 md:flex-row space-y-2 md:px-20'>
           <div className='w-1/2 my-auto mx-auto'>

@@ -1,8 +1,6 @@
 
 import {BrowserRouter,Routes,Route}from 'react-router-dom'
-import { Header } from './Components/Header'
 import Home from './pages/Home'
-import Footer from './Components/Footer'
 import LogInPage from './pages/login_layout/LogInPage'
 import Contact from './pages/Contact'
 import Cart from './pages/Cart'

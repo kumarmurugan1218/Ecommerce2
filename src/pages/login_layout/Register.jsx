@@ -2,7 +2,7 @@
 
 const Form = () => {
   return (
-  <form action="#" className='bg-white px-3 py-2 space-y-2 grid  '>
+  <form action="#" className='bg-white px-3 py-2 space-y-6 grid  '>
                             <label htmlFor="">Name</label>
                             <input type="text" className='login-box '/>
                             <label htmlFor="">Mobile No</label>

@@ -17,7 +17,7 @@ const Product = () => {
   return (
     <section className='min-h-screen grid place-items-center place-content-center gap-y-10 py-10'>
     <h1 className='heading mt-5 '>Products</h1>
-    <div className="grid h-full w-full  grid-cols-2 gap-y-5 px-10  place-items-center place-content-center  md:grid-cols-3 ">
+    <div className="grid h-full w-full  grid-cols-2 gap-20 px-10  place-items-center place-content-center  md:grid-cols-3 ">
              {filtered.map((p,i)=>(<Link key={i} to={`/product/${p}`} className='product-scaleup shadow-xl rounded-xl' >
              <div  className=' p-5 h-[300px] relative'>
               <img src={`${import.meta.env.BASE_URL}${images[i]}`} className="h-full object-cover" alt="" />

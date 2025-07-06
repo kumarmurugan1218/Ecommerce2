@@ -14,12 +14,13 @@ import './index.css'
  export  const cartcontext=createContext()
 const App = () => {
     const [cart,setCart]=useState([]);
+    console.log(import.meta.env.BASE_URL)
   return (
     <cartcontext.Provider value={{cart,setCart}  }>
     <BrowserRouter>
         <Header/>
         <Routes>
-            <Route path={`${import.meta.env.BASE_URL}/`} element={ <Home/>}/>
+            <Route path={`${import.meta.env.BASE_URL}`} element={ <Home/>}/>
             <Route path='/About' element={<About/>}/>   
             <Route path='/product' element={<Product/>}/>
             <Route path='/product/:category' element={<CategoryPage/>}/>                        

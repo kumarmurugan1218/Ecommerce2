@@ -10,8 +10,8 @@ const CategoryPage = () => {
   const filtered=allproducts.filter((p)=>p.category==category)
   return (
     <div className=' px-20 py-5'>
-       <h1 className="text-2xl font-bold text-center mb-5"> {category}</h1>
-       <div className=' min-h-screen grid grid-cols-2 gap-15 place-content-center md:grid-cols-3 xl:grid-cols-4 '>
+       <h1 className="text-2xl font-bold text-center mb-3"> {category}</h1>
+       <div className=' min-h-screen grid grid-cols-2 gap-15 place-content-center md:grid-cols-3 xl:grid-cols-4'>
         {filtered.map((product)=>(
         <div className=' flex flex-col product-scaleup  ' key={product.id}>
             <div className='h-full w-full  relative rounded-md '>

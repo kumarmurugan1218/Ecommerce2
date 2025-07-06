@@ -12,7 +12,7 @@ export const Header = () => {
   const[count,setCount]=useState(0);
      const [data,setData]=useState("")
     let [menu,setMenu]=useState(false);
-    const [arr,setArr]=useState(["mens-shirts","mens-shoes","mens-watches","womens-dresses","womens-shoes","womens-jewellery","smartphones","laptops","headphones"]);
+    const [arr,setArr]=useState(["mensshirts","mensshoes","menswatches","womensdresses","womensshoes","womensjewellery","smartphones","laptops","headphones"]);
     const [list,setList]=useState(false);
  
   const filtered = arr.filter((item) =>
@@ -26,7 +26,7 @@ export const Header = () => {
 
   return (
     <header className='flex flex-col relative justify-center' >
-            <div className='flex justify-between px-10 py-3 shadow-sm space-x-5' >
+            <div className='flex justify-between py-5  shadow-sm space-x-5' >
                 <div className=''>
                     <h1 className='logo'>logo</h1>
                 </div>

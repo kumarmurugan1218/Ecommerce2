@@ -51,8 +51,8 @@ const loading=setInterval(()=>{
      
 
   return (
-    <section className='  '>
-        <div className='h-full w-full pt-10'>
+    <section className=' '>
+        <div className='h-full w-full pt-10 '>
           <img src={`${import.meta.env.BASE_URL}${images[count]}`} alt="" className='h-full w-full object-cover '/>
         </div>
         <div className='min-h-screen grid  gap-y- bg-gray-900 text-white'>

@@ -4,28 +4,32 @@ import { CiUser } from "react-icons/ci";
 import { FiMessageCircle } from "react-icons/fi";
 const Contact = () => {
   return (
-    <section className='container '>
-        <h1 className='heading '>our Contact </h1>
-        <div className="flex flex-col  mx-auto justify-center space-y-5 shadow-2xl md:w-1/2 py-10  rounded-xl ">
-            <div className='flex justify-center space-x-10 items-center '>
-                <div className='contact space-x-10 py-3'>
-                    <div><CgMail size={40} className="text-amber-600"/></div>
-                    <div>
-                        <h1>our mail</h1>
-                        <p>@gmail.com</p>
+    <section className='h-screen flex flex-col justify-center '>
+        <h1 className='heading mb-10'>our Contact </h1>
+        <div className="flex flex-col mx-auto  shadow-2xl  rounded-xl  justify-center space-y-5  py-5 px-5  items-center    md:w-[900px]  ">
+            <div className='flex flex-col gap-y-5 justify-center  items-center md:space-x-10 md:flex-row '>
+                <div className='flex gap-5 border px-15  md:space-x-10 py-3 md:w-1/2 md:px-5'>
+                     <div>
+                    { <CgMail size={40} className="text-amber-600"/> }
                     </div>
-                
-                </div>
-                <div className='contact  space-x-10 py-3'>
-                    <div><MdOutlineLocalPhone size={40} className="text-amber-600"/></div>
                     <div>
                         <h1>our phone</h1>
                         <p>@gmail.com</p>
                     </div>
-                
                 </div>
+
+                <div className='flex  gap-5 border px-15  md:space-x-10 py-3 md:w-1/2  md:px-5 '>
+                    <div>
+                        <MdOutlineLocalPhone size={40} className="text-amber-600"/>
+                    </div>
+                    <div>
+                        <h1>our phone</h1>
+                        <p>@gmail.com</p>
+                    </div>
+                </div>
+
             </div>
-            <form action="#" className='px-10   space-y-5  '>
+            <form action="#" className=' space-y-5  '>
                 <div className='grid gap-5 md:grid-cols-2 '>
                     <div className="input-parent ">
                         <input type="text" placeholder='Your Name' className='grow'/>

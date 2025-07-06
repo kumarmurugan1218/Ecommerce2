@@ -20,13 +20,13 @@ const App = () => {
     <BrowserRouter>
         <Header/>
         <Routes>
-            <Route path={`${import.meta.env.BASE_URL}`} element={ <Home/>}/>
+            <Route  index element={ <Home/>}/>
             <Route path='/About' element={<About/>}/>   
             <Route path='/product' element={<Product/>}/>
             <Route path='/product/:category' element={<CategoryPage/>}/>                        
             <Route path='/Contact' element={<Contact/>}/>    
             <Route path='/Cart' element={<Cart/>}/>    
-            <Route path='/Login' element={<LogInPage/>}/>      
+            <Route path='/Login' element={<LogInPage/>}/>   
         </Routes>
  
         <Footer/>

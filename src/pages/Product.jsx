@@ -15,7 +15,7 @@ const Product = () => {
     ];
     const filtered=[...new Set(allproducts.map((p)=>p.category))]
   return (
-    <section className='min-h-screen  md:h-screen '>
+    <section className='min-h-screen grid place-items-center place-content-center gap-y-10 py-10'>
     <h1 className='heading mt-5 '>Products</h1>
     <div className="grid h-full w-full  grid-cols-2 gap-y-5 px-10  place-items-center place-content-center  md:grid-cols-3 ">
              {filtered.map((p,i)=>(<Link key={i} to={`/product/${p}`} className='product-scaleup shadow-xl rounded-xl' >

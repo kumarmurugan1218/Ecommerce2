@@ -25,34 +25,33 @@ export const Header = () => {
   
 
   return (
-    <header className='flex flex-col relative justify-center w-full ' >
+    <header className='flex flex-col relative justify-center ' >
 
-            <div className='flex  flex-col gap-y-5 items-center justify-between py-5  shadow-sm px-5 sm:flex-row' >
+            <div className='flex  flex-col gap-y-5 items-center justify-between py-5  shadow-sm px-5 sm:flex-row ' >
                 <div className=''>
                     <h1 className='logo'>products</h1>
                 </div>
 
-                <div className='flex flex-col border-2 rounded p-1 relative md:[400px] md:w-[700px]' >
-                  <div className=' md:w-full'>
+                <div className='flex flex-col border-2 rounded p-1 relative md:w-1/2 ' >
                       <div className='flex items-center '>
                           <input type="text" className='input-box' 
                       onChange={(e)=>{
                         setData(e.target.value);
                       } }  onFocus={()=>{
                           setList(true)
+
                       }}
                         onBlur={() => setTimeout(() => setList(false),100)}
                       />
-                        <CiSearch size={25} className='' />
+                        <CiSearch size={35} className='' />
                       </div>
                       <div className='relative z-10 rounded'>
-                           <ul className='bg-gray-300 shadow-xl absolute top-2 w-full  space-y-5 text-center  '>
-                                {list&&arr.map((a,i)=>(<li key={i} > 
-                                      <NavLink to={`product/${a.toLowerCase()}`} className='hover:text-white hover:border-b-2' >{a.toUpperCase()}</NavLink>
-                                            </li>))}
-                              </ul>
+                              <ul className='bg-gray-300 shadow-xl absolute top-2 w-full  space-y-5 text-center  '>
+                                    {list&&arr.map((a,i)=>(<li key={i} > 
+                                          <NavLink to={`product/${a.toLowerCase()}`} className='hover:text-white hover:border-b-2' >{a.toUpperCase()}</NavLink>
+                                                </li>))}
+                                  </ul>
                       </div>
-                    </div>
                 </div>
                 
         

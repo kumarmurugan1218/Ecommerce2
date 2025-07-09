@@ -1,16 +1,16 @@
 
-import { useContext,useEffect,useState } from 'react';
+import { useContext,useEffect,useMemo,useState } from 'react';
 import { MdOutlineCancel } from "react-icons/md";
 import { cartcontext } from '../App';
 
 const Cart = () => {
-    const {cart,setCart}=useContext(cartcontext);
-    let [total,setTotal]=useState(0);
+    const {cart,dispatch}=useContext(cartcontext);
     let [qty,setQty]=useState(1);
-  useEffect(()=>{
-      let price=0;
-    cart.map((c)=>c.price).forEach((p)=>price+=p);
-    setTotal((total)=>total=price);
+ 
+  const total=useMemo(()=>{
+    let price=0;
+      cart.map((c)=>c.price).forEach((p)=>price+=p)
+      return price;
   },[cart])
 
   return (
@@ -18,7 +18,7 @@ const Cart = () => {
         <h1 className='heading '>cart</h1>
         <div className='space-y-5 w-full h-full '>
           {cart.map((c,i)=>(
-            <div key={c.id}  className='flex w-full  justify-evenly  items-center  cart w-1/2  mx-auto md:Full'> 
+            <div key={c.id}  className='flex w-full  justify-evenly  items-center  cart   mx-auto'> 
                 <div className='h-[300px] '> 
                  <img src={`${import.meta.env.BASE_URL}${c.img}`} className='h-full w-full object-contain' alt="noimage" />
                  </div>
@@ -33,7 +33,7 @@ const Cart = () => {
                 
                 <button className='text-2xl cancel-btn ' onClick={()=>{
            
-                  setCart(cart.filter((car)=>car.id!==c.id))
+                   dispatch({type:"Removecart",payload:c.id})
 
                 }}><MdOutlineCancel  size={40} /></button>
             </div>))}

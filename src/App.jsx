@@ -11,11 +11,25 @@ import { useState,useReducer,createContext } from 'react'
 import './index.css'
 import Layout from './Layout/Layout'
  export  const cartcontext=createContext()
+ const initialstate=[];
+ function reducer(state,action){
+  switch(action.type){
+    case "Addcart":
+      return [...state,action.payload];
+
+    case "Removecart":
+      return state.filter((s)=>s.id!==action.payload)
+
+
+ }
+}
+
 const App = () => {
-    const [cart,setCart]=useState([]);
+  const[cart,dispatch]=useReducer(reducer,initialstate)
+    // const [cart,setCart]=useState([]);
     console.log(import.meta.env.BASE_URL)
   return (
-    <cartcontext.Provider value={{cart,setCart}  }>
+    <cartcontext.Provider value={{cart,dispatch}  }>
     <BrowserRouter basename="/Ecommerce2">
         <Routes>
           <Route path='/' element={<Layout/>}>

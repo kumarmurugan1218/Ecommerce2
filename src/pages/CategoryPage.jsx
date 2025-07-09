@@ -5,7 +5,7 @@ import { cartcontext } from '../App'
 import { CiShoppingCart } from "react-icons/ci";
 
 const CategoryPage = () => {
-  const {cart,setCart}=useContext(cartcontext);
+  const {cart,dispatch}=useContext(cartcontext);
     const {category}=useParams();
   const filtered=allproducts.filter((p)=>p.category==category)
   return (
@@ -17,12 +17,12 @@ const CategoryPage = () => {
             <div className='h-full w-full  relative rounded-md '>
               <img src={`${import.meta.env.BASE_URL}${product.img}`} className="cat-cart " alt="no image" />
           {cart.includes(product)? <button className='remove-btn' onClick={()=>{
-                 setCart(cart.filter((c)=>c.id!==product.id))
+                              dispatch({type:"Removecart",payload:product.id})
             }} >remove cart <CiShoppingCart /></button>:<button className='add-btn' onClick={()=>{
+                           dispatch({type:"Addcart",payload:product})
 
- setCart([...cart,product])
             }} >add cart <CiShoppingCart /></button>}
-         
+
             </div>
             <div className='flex justify-around py-5'>
                   <h1>{product.name}</h1>

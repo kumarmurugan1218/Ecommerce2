@@ -15,7 +15,7 @@ const Cart = () => {
 
   return (
     <section className=' min-h-screen w-full md:px-20 md:space-y-5 '>
-        <h1 className='heading '>cart</h1>
+        <h1 className='heading mt-5 '>cart</h1>
         <div className='space-y-5 w-full h-full '>
           {cart.map((c,i)=>(
             <div key={c.id}  className='flex w-full  justify-evenly  items-center  cart   mx-auto'> 

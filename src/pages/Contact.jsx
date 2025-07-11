@@ -4,11 +4,11 @@ import { CiUser } from "react-icons/ci";
 import { FiMessageCircle } from "react-icons/fi";
 const Contact = () => {
   return (
-    <section className='min-h-screen py-5 flex flex-col w-full justify-center items-center'>
+    <section className='min-h-screen py-5 flex flex-col w-full justify-center items-center overflow-x-hidden'>
         <h1 className='heading mb-10'>our Contact </h1>
-        <div className="flex flex-col w-full mx-auto  shadow-2xl  rounded-xl  justify-center space-y-5  py-5 px-5  items-center    md:w-[900px]  ">
+        <div className="flex flex-col mx-auto  shadow-2xl  rounded-xl  justify-center space-y-5  py-5 items-center    md:w-[900px]  ">
             <div className='flex flex-col gap-y-5 justify-center  items-center md:space-x-10 md:flex-row '>
-                <div className='flex  gap-5 border px-5   md:space-x-10 py-3 md:w-1/2  md:px-5'>
+                <div className='flex  gap-5 rounded  border px-5   md:space-x-10 py-3 md:w-1/2  md:px-5'>
                      <div>
                     { <CgMail size={40} className="text-amber-600"/> }
                     </div>
@@ -18,19 +18,19 @@ const Contact = () => {
                     </div>
                 </div>
 
-                <div className='flex  gap-5 border  md:space-x-10 py-3 md:w-1/2  md:px-5 '>
+                <div className='flex px-1 gap-5 border  rounded md:space-x-10 py-3 md:w-1/2  md:px-5 '>
                     <div>
                         <MdOutlineLocalPhone size={40} className="text-amber-600"/>
                     </div>
                     <div>
                         <h1>our gmail</h1>
-                        <p>kumar@gmail.com</p>
+                        <p className=''>kumar@gmail.com</p>
                     </div>
                 </div>
 
             </div>
-            <form action="#" className='py-5 mr-2'>
-                <div className='grid gap-5 md:grid-cols-2 '>
+            <form action="#" className='py-5 w-full'>
+                <div className='w-full grid gap-y-5 justify-center  md:grid-cols-2 md:gap-x-5  '>
                     <div className="input-parent ">
                         <input type="text" placeholder='Your Name' className='grow'/>
                         <CiUser className="text-amber-600"/>
@@ -53,8 +53,8 @@ const Contact = () => {
 
                 </div>
             
-                <div className=' relative py-5'>
-                <textarea name="" id="" placeholder='message' className=''></textarea>
+                <div className=' relative py-5 mx-2'>
+                <textarea  name="" id="" placeholder='message' className=''></textarea>
                 <FiMessageCircle className="absolute top-10 right-5 text-amber-600"/>
                 <button className='contact-btn btn'>send message</button>   
                 </div>

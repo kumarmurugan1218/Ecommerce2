@@ -6,8 +6,8 @@ import Form from './Register'
 const LogInPage = () => {
     const[Login,setLogIn]=useState(false);
   return (
-    <section className='min-h-screen w-full flex items-center   '>
-        <div className=' mx-auto py-10 shadow-md rounded-xl shadow-xl '>
+    <section className='min-h-screen w-full flex items-center  '>
+        <div className=' w-full mx-auto py-10  rounded-xl shadow-xl md:w-[50%] md:my-5'>
             <div className=' md:px-10 space-y-2   '>
                 <div className='flex justify-around  items-center'>
                     <button onClick={()=>{

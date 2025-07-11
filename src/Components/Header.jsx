@@ -26,17 +26,16 @@ export const Header = () => {
   
 
   return (
-    <header className='flex flex-col relative justify-center '  >
+    <header className='flex  w-full flex-col relative justify-center '  >
 
             <div className='flex  flex-col gap-y-5 items-center justify-between py-5  shadow-sm px-5 sm:flex-row ' >
-                <div className=''>
+                <div className='md:w-1/3'>
                     <h1 className='logo'>products</h1>
                 </div>
 
-              <div className='flex justify-evenly w-full md:justify-between  '>
-                <div className='flex flex-col border-2 rounded p-1 relative md:w-[80%] mx-5' >
-                      <div className='flex items-center ' >
-                          <input type="text" className='input-box' 
+                <div className='w-2/3 flex flex-col  relative   ' >
+                      <div className='flex items-center border-2 rounded p-1   md:w-[80%]' >
+                          <input type="text" className='input-box ' 
                       onChange={(e)=>{
                         setData(e.target.value);
                       } }  onFocus={()=>{
@@ -47,8 +46,8 @@ export const Header = () => {
                       />
                         <CiSearch size={35} className='' />
                       </div>
-                      <div className='relative z-10 rounded'>
-                              <ul className='bg-gray-300 shadow-xl absolute top-2 w-full  space-y-5 text-center  '>
+                      <div className='relative z-10 rounded  md:w-[80%] bg-red-500'>
+                              <ul className='bg-gray-300 shadow-xl absolute top-2 space-y-5 text-center w-full '>
                                     {list&&arr.map((a,i)=>(<li key={i} > 
                                           <NavLink to={`product/${a.toLowerCase()}`} className='hover:text-white hover:border-b-2' >{a.toUpperCase()}</NavLink>
                                                 </li>))}
@@ -57,7 +56,7 @@ export const Header = () => {
                 </div>
                 
         
-                 <div className='flex space-x-5 items-center '>
+                 <div className='flex gap-x-4 items-center '>
                   <NavLink to='Cart' className='links relative'><CiShoppingCart size={35} /> <p className='cart-count' >{count}</p></NavLink>
                   <NavLink to='Login'className='links'><LuUser size={35}/></NavLink>
                   <button className='menu' onClick={()=>{
@@ -66,7 +65,6 @@ export const Header = () => {
                 <GiHamburgerMenu size={35} className='my-auto'/>
                   </button>
                 </div>  
-              </div>
             </div>
            
         

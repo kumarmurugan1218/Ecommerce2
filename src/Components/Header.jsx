@@ -1,14 +1,14 @@
 
 import Navbar from './Navbar'
 import { NavLink} from 'react-router-dom';
-import { useContext, useEffect, useRef, useState } from 'react';
+import { useContext, useEffect, useState } from 'react';
 import { CiSearch,CiShoppingCart} from "react-icons/ci";
 import { LuUser } from "react-icons/lu";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { cartcontext } from '../App';
 
 export const Header = () => {
-  const {cart,setCart}=useContext(cartcontext);
+  const {cart,dispatch}=useContext(cartcontext);
   const[count,setCount]=useState(0);
      const [data,setData]=useState("")
     let [menu,setMenu]=useState(false);
@@ -22,18 +22,20 @@ export const Header = () => {
       setCount(cart.length)
     },[cart])
 
+    
   
 
   return (
-    <header className='flex flex-col relative justify-center ' >
+    <header className='flex flex-col relative justify-center '  >
 
             <div className='flex  flex-col gap-y-5 items-center justify-between py-5  shadow-sm px-5 sm:flex-row ' >
                 <div className=''>
                     <h1 className='logo'>products</h1>
                 </div>
 
-                <div className='flex flex-col border-2 rounded p-1 relative md:w-1/2 ' >
-                      <div className='flex items-center '>
+              <div className='flex justify-evenly w-full md:justify-between  '>
+                <div className='flex flex-col border-2 rounded p-1 relative md:w-[80%] mx-5' >
+                      <div className='flex items-center ' >
                           <input type="text" className='input-box' 
                       onChange={(e)=>{
                         setData(e.target.value);
@@ -64,6 +66,7 @@ export const Header = () => {
                 <GiHamburgerMenu size={35} className='my-auto'/>
                   </button>
                 </div>  
+              </div>
             </div>
            
         
